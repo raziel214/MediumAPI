@@ -20,6 +20,7 @@ public class UserInteractorImpl implements UserInteractor {
 
     @Override
     public void getDataUser() {
-        userRepository.getDataUser();
+
+            userRepository.getDataUser();
     }
 }
